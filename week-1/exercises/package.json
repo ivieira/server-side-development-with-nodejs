@@ -1,0 +1,14 @@
+{
+  "name": "exercises-week1",
+  "version": "0.0.0",
+  "description": "Exercises of week 1",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0",
+    "yargs": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
