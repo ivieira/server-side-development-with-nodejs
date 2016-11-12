@@ -44,6 +44,8 @@ dishRouter.route('/:id')
   res.end('Deleting dish: ' + req.params.id);
 });
 
+app.use('/dishes', dishRouter);
+
 app.use(express.static(__dirname + '/public'));
 
 app.listen(3000, function () {
