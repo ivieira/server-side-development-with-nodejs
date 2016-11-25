@@ -25,6 +25,8 @@ var leaderSchema = new Schema({
     type: String,
     required: true
   }
+}, {
+  timestamps: true
 });
 
 // create a model
